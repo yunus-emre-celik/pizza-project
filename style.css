@@ -266,16 +266,19 @@ font-family: Barlow;
 footer{
     background: #292929;
     color: white;
-    width: 1900px;
+    width: 1920px;
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 90px;
+    align-items: center;
+    padding-top: 20px;
 
     
 }
 .footer-nav{
     display: flex;
     flex-direction: column;
+    
     
 }
 .footer-nav a{
@@ -289,22 +292,38 @@ footer{
     flex-wrap: wrap;
     align-items: center;
     gap: 33px;
-    width: 20%;
+    
     align-content: center;
     
 }
+.social-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 370px;
+    
+}
 .footer-bottom{
-    padding-left: 100px;
+    
     background: #292929;
     color: white;
-    border-top: white;
+    border: 3px white;
     display: flex;
-    justify-content: space-between;
-    margin-left: 0;
+    justify-content: space-around;
+    padding-top: 40px;
+    
     
 }
 .son p{
     margin: 1px;
     
 }
+.deneme{
+    display: flex;
+    gap: 20px;
+    justify-content: left;
+    align-items: center;
+    
+}
+
 
