@@ -12,13 +12,15 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     height: 1080px;
     
 }
 main{
     background:#FAF7F2;
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     
 }
 
@@ -76,7 +78,7 @@ h4{
 .nav-top{
     display: flex;
     justify-content: space-between;
-    
+    max-width: 100%;
     margin: 10px;
     gap: 55px;
     
@@ -100,12 +102,13 @@ font-family: Barlow;
     font-size: 20px;
     font-weight: 600;
     color: white;
-    width: 531px;
+    max-width: 531px;
     height: 449px;
     border-radius: 12px;
     display: flex;
     flex-direction: column;
     margin-left: 420px;
+    width: 100%;
     
        
 }
@@ -129,6 +132,7 @@ font-family: Barlow;
     display: flex;
     flex-direction: column;
     line-height: 44px;
+    
     
 }
 .i2 h5{
@@ -182,6 +186,9 @@ font-family: Barlow;
     display: flex;
     align-items: center;
     gap: 5px;
+    max-width: 1920px;
+    width: 100%;
+
     
 }
 .section-top-rigth{
@@ -266,7 +273,8 @@ font-family: Barlow;
 footer{
     background: #292929;
     color: white;
-    width: 1920px;
+    max-width: 1920px;
+    width: 100%;
     display: flex;
     justify-content: center;
     gap: 90px;
@@ -324,6 +332,83 @@ footer{
     justify-content: left;
     align-items: center;
     
+}
+.deneme3 {
+    font-family: "Londrina Solid";
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 50px;
+        text-align: left;
+        margin: 20px auto;
+}
+@media(max-width: 768px){
+   main{ 
+    width: 100%;
+    
+   }
+   
+   .section-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+   }
+   .section-top-rigth {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       
+
+   }
+   .nav-top{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+   }
+   .section-middle{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   .middle-nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+   }
+   .section-bottom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   }
+   .i1{
+    margin: 0;
+   }
+   .i2,.i3{
+    width: 374px;
+    
+    
+   }
+   footer {
+       display: flex;
+       flex-direction: column;
+       width: 100%;
+       gap: 20px;
+   }
+   .deneme2{
+    width: 86%;
+   }
+   .social-top{
+    width: 86%;
+   }
+   .contact{
+    width: 86%; 
+   }
+
 }
 
 
