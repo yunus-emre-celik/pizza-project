@@ -120,7 +120,7 @@ font-family: Barlow;
 }
 .i2{
     background-image: url(./public/assets/iteration-2/cta/kart-2.png);
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     font-family: "Barlow";
     font-size: 32px;
